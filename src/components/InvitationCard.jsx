@@ -9,7 +9,7 @@ export default function InvitationCard({ lang }) {
   return (
     <div className="text-center px-4 sm:px-8 mt-10 ">
       {/* === Top Section === */}
-      <div className="flex flex-col items-center justify-center text-center pt-20">
+      <div className="flex flex-col items-center justify-center text-center pt-30">
      {/* Logo */}
       <img
         src={ganpati}
@@ -112,4 +112,5 @@ export default function InvitationCard({ lang }) {
     </div>
   );
 }
+
 
