@@ -81,7 +81,7 @@ export default function InvitationCard({ lang }) {
         {data.card.date}
       </h3>
       <p className="text-sm text-gray-800 mb-1 text-center">{data.card.address}</p>
-      <p className="text-sm text-gray-800 mb-4 text-center">
+      <p className="text-sm text-blue-400 mb-4 text-center">
       <a href={`tel:${data.card.phone}`} className="hover:underline">
         {data.card.phone}
       </a>
@@ -112,5 +112,6 @@ export default function InvitationCard({ lang }) {
     </div>
   );
 }
+
 
 
