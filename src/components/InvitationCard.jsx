@@ -19,7 +19,7 @@ export default function InvitationCard({ lang }) {
       />
 
       {/* Two names below logo */}
-      {data.topNames.slice(0, 2).map((name, idx) => (
+      {data.topNames.slice(0, 5).map((name, idx) => (
         <p key={idx} className=" font-medium text-blue-600 leading-tight">
           {name}
         </p>
@@ -112,6 +112,7 @@ export default function InvitationCard({ lang }) {
     </div>
   );
 }
+
 
 
 
