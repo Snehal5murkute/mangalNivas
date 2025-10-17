@@ -1,0 +1,71 @@
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.bounce {
+  display: inline-block;
+  animation: bounce 1s ease-in-out infinite;
+}
+ 
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.pulse {
+  display: inline-block;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+
+
+@keyframes morph {
+  0% {
+    border-radius: 10px;
+  }
+  25% {
+    border-radius: 50% 0 50% 0;
+  }
+  50% {
+    border-radius: 0 50% 0 50%;
+  }
+  75% {
+    border-radius: 30% 70% 50% 20%;
+  }
+  100% {
+    border-radius: 10px;
+  }
+}
+
+.morphing {
+  animation: morph 5s infinite ease-in-out;
+}
+
+.timer-box-animated {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* initial shape */
+  width: 300px;
+  padding: 1.5rem;
+  background-color:#FDF2D2;
+  animation: morph 6s ease-in-out infinite; /* morph animation applied */
+}
+
+.timer-box-animated > * {
+  position: relative;
+  z-index: 1; /* keep text above the morphing box */
+}
+
+
+
+
+
+
+
+
+
+
+
+

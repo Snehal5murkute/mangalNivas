@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+/* 👇 Custom Font Classes */
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+/* Custom Colors (optional if you don’t use Tailwind config) */
+.text-navy {
+  color: #2A2463;
+}
+.text-maroon {
+  color: #6E1C1C;
+}
+.text-deepMaroon {
+  color: #5B1A1A;
+}
+.text-royalBlue {
+  color: #2C2D87;
+}
+.text-brownRed {
+  color: #7A2C1C;
+}
+.bg-cream {
+  background-color: #FFF9E9;
+}
+
+
+body {
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* keeps it fixed when scrolling */
+}
